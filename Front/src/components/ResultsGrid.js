@@ -3,7 +3,7 @@ import './style.css';
 
 const ResultsGrid = ({ results }) => {
   if (!results || results.length === 0) {
-    return <p>Insira os dados e clique em calcular para ver os resultados.</p>;
+    return;
   }
 
   return (
